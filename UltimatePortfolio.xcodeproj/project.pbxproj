@@ -12,6 +12,7 @@
 		1F0BB47D28EE74EA005254B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0BB47C28EE74EA005254B2 /* Assets.xcassets */; };
 		1F0BB48028EE74EA005254B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0BB47F28EE74EA005254B2 /* Preview Assets.xcassets */; };
 		1F0BB48828EE8357005254B2 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BB48628EE8357005254B2 /* Main.xcdatamodeld */; };
+		1F0BB48A28EE879F005254B2 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BB48928EE879F005254B2 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1F0BB47C28EE74EA005254B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F0BB47F28EE74EA005254B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F0BB48728EE8357005254B2 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		1F0BB48928EE879F005254B2 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				1F0BB47828EE74E9005254B2 /* UltimatePortfolioApp.swift */,
+				1F0BB48928EE879F005254B2 /* DataController.swift */,
 				1F0BB47A28EE74E9005254B2 /* ContentView.swift */,
 				1F0BB48628EE8357005254B2 /* Main.xcdatamodeld */,
 				1F0BB47C28EE74EA005254B2 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F0BB48828EE8357005254B2 /* Main.xcdatamodeld in Sources */,
+				1F0BB48A28EE879F005254B2 /* DataController.swift in Sources */,
 				1F0BB47B28EE74E9005254B2 /* ContentView.swift in Sources */,
 				1F0BB47928EE74E9005254B2 /* UltimatePortfolioApp.swift in Sources */,
 			);
