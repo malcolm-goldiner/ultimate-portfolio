@@ -14,7 +14,7 @@ class DataController: ObservableObject {
     let container: NSPersistentCloudKitContainer
     
     init(inMemory: Bool = false) {
-        self.container = NSPersistentCloudKitContainer(name: "main")
+        self.container = NSPersistentCloudKitContainer(name: "Main")
         
         if inMemory {
             // in memory caches are nice for testing
