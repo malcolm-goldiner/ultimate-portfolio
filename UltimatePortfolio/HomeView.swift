@@ -19,8 +19,8 @@ struct HomeView: View {
                     dataController.deleteAll()
                     try? dataController.createSampleData()
                 }
-            }
-        }.navigationTitle("Home")
+            }.navigationBarTitle("Home")
+        }
     }
 }
 

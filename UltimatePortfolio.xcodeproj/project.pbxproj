@@ -19,6 +19,9 @@
 		1F0BB49428EFF5CC005254B2 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BB49328EFF5CC005254B2 /* EditItemView.swift */; };
 		1F0BB49628EFFAB5005254B2 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BB49528EFFAB5005254B2 /* ItemRowView.swift */; };
 		1F0BB49828EFFDC6005254B2 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0BB49728EFFDC6005254B2 /* Binding-OnChange.swift */; };
+		1F6FD84428F21627005C5B1C /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FD84328F21627005C5B1C /* ProjectHeaderView.swift */; };
+		1F6FD84628F2194C005C5B1C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6FD84528F2194C005C5B1C /* Colors.xcassets */; };
+		1F6FD84828F2555F005C5B1C /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FD84728F2555F005C5B1C /* SelectSomethingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		1F0BB49328EFF5CC005254B2 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		1F0BB49528EFFAB5005254B2 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		1F0BB49728EFFDC6005254B2 /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
+		1F6FD84328F21627005C5B1C /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		1F6FD84528F2194C005C5B1C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		1F6FD84728F2555F005C5B1C /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,7 @@
 			children = (
 				1F0BB48D28EEA07A005254B2 /* HomeView.swift */,
 				1F0BB48F28EEA0CE005254B2 /* ProjectsView.swift */,
+				1F6FD84728F2555F005C5B1C /* SelectSomethingView.swift */,
 				1F0BB49528EFFAB5005254B2 /* ItemRowView.swift */,
 				1F0BB48C28EE94BD005254B2 /* Info.plist */,
 				1F0BB48B28EE94B2005254B2 /* UltimatePortfolio.entitlements */,
@@ -78,6 +85,8 @@
 				1F0BB48928EE879F005254B2 /* DataController.swift */,
 				1F0BB47A28EE74E9005254B2 /* ContentView.swift */,
 				1F0BB49328EFF5CC005254B2 /* EditItemView.swift */,
+				1F6FD84328F21627005C5B1C /* ProjectHeaderView.swift */,
+				1F6FD84528F2194C005C5B1C /* Colors.xcassets */,
 				1F0BB49728EFFDC6005254B2 /* Binding-OnChange.swift */,
 				1F0BB49128EFE456005254B2 /* CoreDataHelpers.swift */,
 				1F0BB48628EE8357005254B2 /* Main.xcdatamodeld */,
@@ -153,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6FD84628F2194C005C5B1C /* Colors.xcassets in Resources */,
 				1F0BB48028EE74EA005254B2 /* Preview Assets.xcassets in Resources */,
 				1F0BB47D28EE74EA005254B2 /* Assets.xcassets in Resources */,
 			);
@@ -169,10 +179,12 @@
 				1F0BB49028EEA0CE005254B2 /* ProjectsView.swift in Sources */,
 				1F0BB48828EE8357005254B2 /* Main.xcdatamodeld in Sources */,
 				1F0BB49628EFFAB5005254B2 /* ItemRowView.swift in Sources */,
+				1F6FD84428F21627005C5B1C /* ProjectHeaderView.swift in Sources */,
 				1F0BB48A28EE879F005254B2 /* DataController.swift in Sources */,
 				1F0BB47B28EE74E9005254B2 /* ContentView.swift in Sources */,
 				1F0BB49228EFE456005254B2 /* CoreDataHelpers.swift in Sources */,
 				1F0BB49428EFF5CC005254B2 /* EditItemView.swift in Sources */,
+				1F6FD84828F2555F005C5B1C /* SelectSomethingView.swift in Sources */,
 				1F0BB48E28EEA07A005254B2 /* HomeView.swift in Sources */,
 				1F0BB47928EE74E9005254B2 /* UltimatePortfolioApp.swift in Sources */,
 			);
